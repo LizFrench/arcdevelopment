@@ -220,7 +220,7 @@ export default function Header(props) {
         { name: 'Services', link: '/services', activeIndex: 1, ariaOwns: anchorEl ? 'simple-menu' : undefined, ariaPopup: anchorEl ? 'true' : undefined, mouseOver: event => handleClick(event, 1) },
         { name: 'Revolution', link: '/revolution', activeIndex: 2 },
         { name: 'About Us', link: '/about', activeIndex: 3 },
-        { name: 'Contact Us', link: '/contactMenu', activeIndex: 4, ariaOwns: anchorEl ? 'rev-menu' : undefined, ariaPopup: anchorEl ? 'true' : undefined, mouseOver: event => handleClick(event, 4) },
+        { name: 'Contact Us', link: '/contactMenu', activeIndex: 4, ariaOwns: anchorEl ? 'contact-menu' : undefined, ariaPopup: anchorEl ? 'true' : undefined, mouseOver: event => handleClick(event, 4) },
 
     ];
 
